@@ -7,13 +7,13 @@ public class Tabla {
 		Random rnd = new Random();
 		int[][] tabla = new int[3][6];
 		
-		// Rellenamos con datos
+		// Rellenamos la tabla con datos
 		for (int i = 0; i < tabla.length; i++) {
 			for (int j = 0; j < tabla[0].length; j++) {
 				tabla[i][j] = rnd.nextInt(10);
 			}
 		}
-		// Mostramos en pantalla
+		// Mostramos la tabla en pantalla
 		System.out.println("Tabla:");
 		for (int i = 0; i < tabla.length; i++) {
 			System.out.print("|");
