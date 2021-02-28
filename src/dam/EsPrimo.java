@@ -1,3 +1,7 @@
+/**
+ * Programa que pide un número entero al usuario para
+ * indicar en pantalla si es o no primo
+ */
 package dam;
 
 import java.util.Scanner;
